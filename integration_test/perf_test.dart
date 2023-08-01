@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
 import 'package:testing_app/main.dart';
+// import 'package:flutter_driver/driver_extension.dart';
 
 void main() {
+  // enableFlutterDriverExtension();
   group('Testing app performance', () {
     final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
     binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;

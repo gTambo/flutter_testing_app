@@ -4,8 +4,10 @@ import 'package:provider/provider.dart';
 import 'models/favorites.dart';
 import 'screens/favorites.dart';
 import 'screens/home.dart';
+import 'package:flutter_driver/driver_extension.dart';
 
 void main() {
+  enableFlutterDriverExtension();
   runApp(const TestingApp());
 }
 
